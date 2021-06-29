@@ -1,0 +1,30 @@
+.district {
+    display: flex;
+    flex-direction: column;
+    border-spacing: 2px;
+}
+
+.data-table {
+    border-collapse: collapse;
+}
+
+.data-table td, .data-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #26407d;
+}
+
+.data-table tr:hover {
+    background-color: #423348;
+}
+
+.data-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #967AA1;
+  color: white;
+}

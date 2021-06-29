@@ -1,0 +1,32 @@
+[
+    {
+        "district": "Kozhikode",
+        "area": "olavana",
+        "flc_name": "FLC Name 1",
+        "adress": "sadgamaya house , kuttikothiya parambil, nellikode",
+        "Abeds": 100,
+        "Aoxybeds": 25,
+        "Obeds": 75,
+        "OOybeds": 15
+    },
+    {
+        "district": "Kozhikode",
+        "area": "olavana",
+        "flc_name": "FLC Name 2",
+        "adress": "cherukkunnummal house , palazhi , GA college",
+        "Abeds": 150,
+        "Aoxybeds": 35,
+        "Obeds": 65,
+        "OOybeds": 20
+    },
+    {
+        "district": "Thrissur",
+        "area": 2,
+        "flc_name": "FLC Name 3",
+        "adress": "ponniyath house , balussery , calicut",
+        "Abeds": 200,
+        "Aoxybeds": 15,
+        "Obeds": 85,
+        "OOybeds": 10
+    }
+]

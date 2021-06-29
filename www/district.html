@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>District</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="district.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@400;700&display=swap" rel="stylesheet">
+    <script src="district.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <h1>OxyBED</h1>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="" id="find-bed">Find Beds</a></li>
+                    <div id="district-dropdown" class="district-dropdown">
+                        <a href="district.html?district=Kasaragod">Kasaragod</a>
+                        <a href="district.html?district=Kannur">Kannur</a>
+                        <a href="district.html?district=Wayanad">Wayanad</a>
+                        <a href="district.html?district=Kozhikode">Kozhikode</a>
+                        <a href="district.html?district=Malappuram">Malappuram</a>
+                        <a href="district.html?district=Palakkad">Palakkad</a>
+                        <a href="district.html?district=Thrissur">Thrissur</a>
+                        <a href="district.html?district=Eranakulam">Eranakulam</a>
+                        <a href="district.html?district=Idukki">Idukki</a>
+                        <a href="district.html?district=Thiruvananthapuram">Thiruvananthapuram</a>
+                        <a href="district.html?district=Kollam">Kollam</a>
+                        <a href="district.html?district=Alappuzha">Alappuzha</a>
+                        <a href="district.html?district=Pathanamthitta">Pathanamthitta</a>
+                        <a href="district.html?district=Kottayam">Kottayam</a>
+                    </div>
+                    <li><a href="">Helpline</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="container district">
+            <h1 id="district-title"></h1>
+            <div>
+                <div id="json-data"></div>
+                <table class="data-table" id="data-table">
+                    <thead>
+                        <tr>
+                            <th>Area</th>
+                            <th>FLC Name</th>
+                            <th>Normal Bed Availability</th>
+                            <th>Oxygen Bed Availability</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
